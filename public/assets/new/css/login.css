@@ -1,0 +1,38 @@
+.cls-content {
+    height: 100vh;
+    background: url(/../assets/img/bg-print.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* -- BUTTONS -- */
+
+.btn-login-sd {
+    background-color: #ec8202;
+    border-color: #ec8202;
+    color: #fff;
+    box-shadow: 0 10px 6px -6px #1b1b1b;
+}
+
+.btn-login-sd:hover,
+.btn-login-sd:active {
+    background-color: #995503;
+    border-color: #995503;
+    color: #fff;
+}
+
+/*--- Card - Header ---*/
+
+.card-header > img {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.panel-body > .mar-ver > h2 {
+    color:#ec8202;
+}
+
+.panel-body > .mar-ver > hr {
+    border-color: rgba(255, 255, 255, 0.25);
+}
